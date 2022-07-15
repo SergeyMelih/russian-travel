@@ -18,3 +18,30 @@
 .page {
     background-color: #2A2C2F;
 }
+.header {
+    max-width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 28px;
+}
+.heaedr__logo {
+    padding-left: 48px;
+}
+.header__lang-link-wrap {
+    padding-right: 48px;
+}
+.header__lang-link {
+    text-decoration: none;
+    font-family: 'Inter-Regular';
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.header__lang-link:first-child {
+    margin-right: 18px;
+}
+.header__lang-link_location {
+    border-bottom: 1px solid #FFFFFF;
+}
