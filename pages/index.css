@@ -1,5 +1,45 @@
 @import url(../vendor/normalize.css);
 
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__lang-links/header__lang-links.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/_location/header__lang-link_location.css);
+
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__caption/lead__caption.css);
+
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__list-number/intro__list-number.css);
+
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @font-face {
@@ -15,113 +55,32 @@
     src: url(../vendor/fonts/Inter-Regular.woff2);
 }
 
-.page {
-    background-color: #2A2C2F;
-    color: #FFFFFF;
-}
-.header {
-    max-width: 1280px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-    padding-top: 28px;
-}
-.heaedr__logo {
-    padding-left: 48px;
-}
-.header__lang-link-wrap {
-    padding-right: 48px;
-}
-.header__lang-link {
-    text-decoration: none;
-    font-family: 'Inter-Regular';
-    font-size: 24px;
-    line-height: 28px;
-    color: #FFFFFF;
-}
-.header__lang-link:first-child {
-    margin-right: 18px;
-}
-.header__lang-link_location {
-    border-bottom: 1px solid #FFFFFF;
-}
 
 
 
 
 
 
-.lead {
-    padding-top: 56px;
-    max-width: 984px;
-    margin: 0 auto;
-}
-.lead__title {
-    max-width: 720px;
-    margin: 0 auto;
-    font-size: 96px;
-    line-height: 100px;
-    font-family: 'Inter-Black';
-    color: #FFFFFF;
-    text-align: center;
-}
-.lead__subtitle {
-    max-width: 640px;
-    margin: 0 auto;
-    padding: 32px 0 64px;
-    font-size: 30px;
-    line-height: 36px;
-    font-family: 'Inter-Regular';
-    text-align: center;
-    color: #FFFFFF;
-}
-.lead__image {
-    background-image: url(../images/lead-polka.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin: 0 auto;
-    width: 984px;
-    height: 615px;
-}
-.lead__caption {
-    font-size: 10px;
-    line-height: 14px;
-    text-transform: uppercase;
-    font-family: 'Inter-Regular';
-    color: #FFFFFF;
-    margin: 0 auto;
-    padding-top: 8px;
-}
 
 
 
 
-.intro {
-    max-width: 984px;
-    margin: 0 auto;
-}
-.intro__title {
-    font-size: 54px;
-    line-height: 58px;
-    font-family: 'Inter-Black';
-    padding-top: 92px;
-}
-.intro__text {
-    margin: 0;
-    font-size: 16px;
-    line-height: 163%;
-    font-family: 'Inter-Regular';
-    padding: 40px 0 33px;
-    max-width: 690px;
-}
-.intro__list {
-    font-size: 12px;
-    line-height: 18px;
-    margin: 0;
-    font-family: 'Inter-Bold';
-}
-.intro__list-number {
-    font-family: 'Inter-Regular';
-    padding-left: 5px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
