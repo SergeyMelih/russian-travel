@@ -1,0 +1,19 @@
+.cover__link {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 740px;
+  background-image: linear-gradient(rgba(42, 44, 47, 0.3), rgba(42, 44, 47, 0.3)), url(../../../images/cover-trains.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: opacity .3s linear;
+  opacity: 1;
+}
+
+.cover__link:hover {
+  background-color: #2A2C2F;
+  opacity: 0.8;
+}
