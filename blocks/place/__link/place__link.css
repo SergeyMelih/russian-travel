@@ -6,7 +6,7 @@
     font-family: 'Inter-Regular';
     transition: opacity .3s linear;
     opacity: 1;
-    text-decoration-line: underline;
+    border-bottom: 1px solid #fff;
     text-decoration: none;
 }
 
