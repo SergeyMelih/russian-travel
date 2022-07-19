@@ -7,7 +7,7 @@
 @media screen and (max-width: 1279px) {
     .place {
       grid-template-columns: repeat(auto-fit, minmax(440px, 1fr));
-      grid-gap: 48px 32px;
+      gap: 48px 32px;
       margin-bottom: 84px;
     }
 }
@@ -15,8 +15,7 @@
   @media screen and (max-width: 1023px) {
     .place {
       grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
-      /* grid-gap: 48px 28px; */
-      grid-gap: 46px 17px;
+      gap: 46px 17px;
       margin-bottom: 72px;
     }
 }
@@ -25,7 +24,7 @@
     .place {
       display: flex;
       flex-wrap: wrap;
-      grid-gap: 0;
+      gap: 0;
       margin-bottom: 50px;
     }
 }

@@ -4,7 +4,7 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
-    font-family: 'Inter-Regular';
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
     color: #ffffff;
 }
 
@@ -13,6 +13,5 @@
       align-self: flex-start;
       margin-top: 48px;
       margin-left: 16px;
-      margin-bottom: 24px;
     }
 }
